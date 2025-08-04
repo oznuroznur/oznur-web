@@ -1,4 +1,5 @@
 import { Download, ExternalLink, Mail, Github, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 export default function Portfolio() {
   return (
@@ -9,7 +10,7 @@ export default function Portfolio() {
           <div className="border-2 border-white p-3 md:p-4 mb-4">
             <h1 className="text-2xl md:text-4xl font-bold mb-2">OZNUR OZNUR</h1>
             <p className="text-base md:text-xl text-green-400">
-              SOFTWARE ENGINEER
+              SOFTWARE DEVELOPER
             </p>
           </div>
           <nav className="flex flex-col sm:flex-row gap-3 md:gap-6">
@@ -53,28 +54,36 @@ export default function Portfolio() {
                 DESCRIPTION:
               </h3>
               <p className="mb-4 leading-relaxed">
-                Software engineer building scalable systems across the full
-                stack — from backend APIs and infrastructure to responsive web
-                and mobile interfaces. I believe in solving real-world problems
-                with practical, performant code.
+                I&apos;m a software developer with hands-on experience building
+                fullstack applications from scratch, with a strong focus on
+                backend systems and architectural design. Proficient in
+                technologies like Express.js ,PostgreSQL,Prisma,and React
+                Native,and familiar with DevOps practices such as NGINX
+                configuration and server setup. Currently seeking
+                backend-focused opportunities after independently developing B2C
+                products across both mobile and web platforms.
               </p>
               <p className="mb-4 leading-relaxed">
-                Experienced with modern tools like <b>React</b>, <b>Next.js</b>,{" "}
-                <b>Node.js</b>, <b>Redis</b>, <b>Docker</b>, and{" "}
-                <b>PostgreSQL</b>. Also worked with enterprise-level{" "}
-                <b>.NET Core</b> architectures, integrating custom frontend
-                solutions into existing backend systems serving millions of
-                users.
+                I’ve independently built and deployed cross-platform products
+                using technologies like <b>Express.js</b>, <b>PostgreSQL</b>,{" "}
+                <b>Prisma</b>, and <b>React Native (Expo)</b>, and I’m
+                comfortable working with <b>NGINX</b>, <b>PM2</b>, and{" "}
+                <b>SSL</b> for server-side deployment. Currently seeking
+                backend-oriented opportunities after developing multiple B2C
+                products across mobile and web.
               </p>
               <p className="mb-4 leading-relaxed">
-                I&apos;ve developed enterprise e-commerce platforms,
-                multilingual corporate websites, admin panels, and real-time
-                apps with socket-based messaging. From infrastructure to
-                interface — I care about the whole system.
+                Experienced with tools like <b>Next.js</b>,{" "}
+                <b>TanStack Query</b>, <b>Redis</b>, <b>Jira</b>, and{" "}
+                <b>Postman</b>. I&apos;ve also contributed to enterprise-level{" "}
+                <b>.NET MVC</b> systems — analyzing and debugging backend flows,
+                implementing backend-side fixes, and enhancing legacy frontend
+                modules within a high-traffic e-commerce platform.
               </p>
               <p className="mb-4 leading-relaxed">
-                I don&apos;t chase hype or overengineer solutions. I build what
-                works — cleanly, clearly, and efficiently.
+                I care deeply about maintainable code, well-thought
+                architecture, and systems that actually work — not just ones
+                that look good in theory.
               </p>
             </div>
             <div className="border-2 border-white p-6">
@@ -88,19 +97,19 @@ export default function Portfolio() {
         "Python", "SQL"
       ],
     "frameworks": [
-        "Node.js", "Next.js", "Node.js",
-        "React"
+        "Express.js", "Next.js", "Expo",
+        ".Net MVC"
       ],
     "databases": [
         "PostgreSQL", "Redis", "MongoDB",
-        "Elasticsearch"
       ],
     "infrastructure": [
-        "NGINX", "Docker", "AWS", "CI/CD"
+        "NGINX", "PM2", "SSL", "VDS"
       ],
     "tools": [
-        "Git", "Gitlab", "Postman",
-        "Linux","Jira"
+        "Git", "Postman", "Jira",
+        "TanStackQuery","Figma",
+        "Tag Manager"
       ]
     }`}
               </pre>
@@ -122,7 +131,9 @@ export default function Portfolio() {
                 <h3 className="text-xl font-bold">DISTRIBUTED_CACHE_SYSTEM</h3>
               </div>
               <div className="p-6">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src="/placeholder.svg?height=200&width=400"
                   alt="Distributed Cache System Architecture"
                   className="w-full h-48 object-cover border-2 border-white mb-4"
@@ -286,47 +297,82 @@ export default function Portfolio() {
               </h3>
 
               <div className="mb-6">
-                <h4 className="font-bold">SENIOR SOFTWARE ENGINEER</h4>
-                <p className="text-green-400">TechCorp Inc. | 2021 - Present</p>
+                <h4 className="font-bold">SOFTWARE DEVELOPER</h4>
+                <p className="text-green-400">
+                  Vatan Computer | 2025 - Present
+                </p>
                 <ul className="mt-2 space-y-1">
                   <li>
-                    • Built microservices architecture serving 1M+ daily users
+                    • Gained hands-on experience in .NET MVC architecture ,
+                    contributing to backend improvements by debugging
+                    controller-service-model flows and fixing logic-level
+                    issues.
                   </li>
                   <li>
-                    • Reduced API response time by 60% through optimization
+                    • Delivered key features including the PC Build Wizard ,
+                    product comparison drawer , AJAX filtering , and store
+                    locator , while supporting core flows like login and
+                    messaging.
                   </li>
                   <li>
-                    • Led team of 4 engineers on critical infrastructure
-                    projects
+                    • Migrated the entire frontend framework from Bootstrap 3 to
+                    5 , and maintained legacy modules using jQuery , SCSS , and
+                    JavaScript .
+                  </li>
+                  <li>
+                    • Built reusable utility functions and integrated Google Tag
+                    Manager for user behavior tracking and analytics.
                   </li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="font-bold">SOFTWARE ENGINEER</h4>
-                <p className="text-green-400">StartupXYZ | 2019 - 2021</p>
+                <h4 className="font-bold">SOFTWARE DEVELOPER </h4>
+                <p className="text-green-400">
+                  Ideon Information Technologies | 2023 - 2025
+                </p>
                 <ul className="mt-2 space-y-1">
                   <li>
-                    • Designed and implemented REST APIs for mobile applications
+                    • Implemented real-time communication features using
+                    WebSocket and collaborated on API integration, debugging
+                    backend-related logic and contributing to data structure
+                    decisions.
                   </li>
                   <li>
-                    • Migrated legacy monolith to containerized microservices
+                    • Developed mobile applications using React Native and Expo
+                    and built web interfaces with Next.js, TanStack Query, and
+                    Tailwind CSS, delivering responsive and user-focused UIs.
                   </li>
                   <li>
-                    • Implemented CI/CD pipeline reducing deployment time by 80%
+                    • Worked within agile teams to deliver production-ready
+                    mobile and web solutions with an emphasis on scalability and
+                    maintainability.
                   </li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="font-bold">JUNIOR DEVELOPER</h4>
-                <p className="text-green-400">WebDev Solutions | 2018 - 2019</p>
+                <h4 className="font-bold">INTERN ENGINEER</h4>
+                <p className="text-green-400">
+                  Mebant Insulation and Tape Industry INC. | 2022 - 2023
+                </p>
                 <ul className="mt-2 space-y-1">
                   <li>
-                    • Developed web applications using Python and JavaScript
+                    • Contributed to an internal .NET-based admin panel project
+                    with teammates.
                   </li>
-                  <li>• Maintained and optimized database queries</li>
-                  <li>• Collaborated with frontend team on API integration</li>
+                </ul>
+              </div>
+              <div className="mb-6">
+                <h4 className="font-bold">INTERN ENGINEER</h4>
+                <p className="text-green-400">
+                  Eskisehir Industrial Zone Directorate | 2021 - 2022
+                </p>
+                <ul className="mt-2 space-y-1">
+                  <li>
+                    • Gained experience in SQL Server through data normalization
+                    tasks.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -336,22 +382,30 @@ export default function Portfolio() {
                 EDUCATION:
               </h3>
               <div className="mb-4">
-                <h4 className="font-bold">B.S. COMPUTER SCIENCE</h4>
-                <p className="text-green-400">State University | 2018</p>
-              </div>
+                <h4 className="font-bold">B.S. SOFTWARE ENGINEERING </h4>
+                <p className="text-green-400">Uskudar University | 2023</p>
 
+                <p>
+                  * 75% Scholarship.
+                  <br />* GPA: 3,25 <br /> * 100% English <br /> * (PEIC) - C1
+                </p>
+              </div>
               <h3 className="text-xl font-bold mb-4 text-green-400 mt-6">
-                CERTIFICATIONS:
+                GPA: 3.25
               </h3>
-              <ul className="space-y-2">
-                <li>• AWS Solutions Architect</li>
-                <li>• Kubernetes Administrator</li>
-                <li>• Docker Certified Associate</li>
-              </ul>
+              <div className="mb-4">
+                <h4 className="font-bold">
+                  B.S. Management Information Systems
+                </h4>
+                <p className="text-green-400">Anadolu University | 2023</p>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-green-400 mt-6">
+                GPA: 3.67
+              </h3>
 
               <div className="mt-8">
                 <a
-                  href="#"
+                  href="/oznuroznur.pdf"
                   className="border-2 border-green-400 bg-green-400 text-black px-4 py-2 hover:bg-black hover:text-green-400 flex items-center gap-2 justify-center"
                 >
                   <Download size={16} />
@@ -375,10 +429,10 @@ export default function Portfolio() {
                 <Mail size={48} className="mx-auto mb-4 text-green-400" />
                 <h3 className="font-bold mb-2">EMAIL</h3>
                 <a
-                  href="mailto:smith@email.com"
+                  href="mailto:oznuroznurr26@gmail.com"
                   className="border-2 border-white px-4 py-2 hover:bg-white hover:text-black inline-block"
                 >
-                  smith@email.com
+                  oznuroznurr26@gmail.com
                 </a>
               </div>
 
@@ -386,12 +440,12 @@ export default function Portfolio() {
                 <Github size={48} className="mx-auto mb-4 text-green-400" />
                 <h3 className="font-bold mb-2">GITHUB</h3>
                 <a
-                  href="https://github.com/smith"
+                  href="https://github.com/oznuroznur"
                   className="border-2 border-white px-4 py-2 hover:bg-white hover:text-black inline-block"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  github.com/smith
+                  github.com/oznuroznur
                 </a>
               </div>
 
@@ -399,19 +453,20 @@ export default function Portfolio() {
                 <Linkedin size={48} className="mx-auto mb-4 text-green-400" />
                 <h3 className="font-bold mb-2">LINKEDIN</h3>
                 <a
-                  href="https://linkedin.com/in/smith"
+                  href="https://linkedin.com/in/oznuroznur"
                   className="border-2 border-white px-4 py-2 hover:bg-white hover:text-black inline-block"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  linkedin.com/in/smith
+                  linkedin.com/in/oznuroznur
                 </a>
               </div>
             </div>
 
             <div className="mt-8 text-center">
               <p className="text-green-400 font-bold">
-                $ echo &quot;Let&apos;s build something that works.&quot;
+                console.log(&quot;Let&apos;s build something that
+                works.:)&quot;)
               </p>
             </div>
           </div>
@@ -420,9 +475,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="border-t-4 border-green-400 p-6 text-center">
-        <p className="text-green-400">
-          © 2024 SMITH | BUILT WITH ZERO FLUFF | FUNCTION &gt; FORM
-        </p>
+        <p className="text-green-400">© 2025 OZNUR OZNUR</p>
       </footer>
     </div>
   );
