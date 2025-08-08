@@ -1,0 +1,80 @@
+import React from 'react'
+
+function About() {
+  return (
+     <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6 border-b-2 border-white pb-2">
+            ABOUT_ME.TXT
+          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="border-2 border-white p-6">
+              <h3 className="text-xl font-bold mb-4 text-green-400">
+                DESCRIPTION:
+              </h3>
+              <p className="mb-4 leading-relaxed">
+                I&apos;m a software developer with hands-on experience building
+                fullstack applications from scratch, with a strong focus on
+                backend systems and architectural design. Proficient in
+                technologies like Express.js ,PostgreSQL,Prisma,and React
+                Native,and familiar with DevOps practices such as NGINX
+                configuration and server setup. Currently seeking
+                backend-focused opportunities after independently developing B2C
+                products across both mobile and web platforms.
+              </p>
+              <p className="mb-4 leading-relaxed">
+                I’ve independently built and deployed cross-platform products
+                using technologies like <b>Express.js</b>, <b>PostgreSQL</b>,{" "}
+                <b>Prisma</b>, and <b>React Native (Expo)</b>, and I’m
+                comfortable working with <b>NGINX</b>, <b>PM2</b>, and{" "}
+                <b>SSL</b> for server-side deployment. Currently seeking
+                backend-oriented opportunities after developing multiple B2C
+                products across mobile and web.
+              </p>
+              <p className="mb-4 leading-relaxed">
+                Experienced with tools like <b>Next.js</b>,{" "}
+                <b>TanStack Query</b>, <b>Redis</b>, <b>Jira</b>, and{" "}
+                <b>Postman</b>. I&apos;ve also contributed to enterprise-level{" "}
+                <b>.NET MVC</b> systems — analyzing and debugging backend flows,
+                implementing backend-side fixes, and enhancing legacy frontend
+                modules within a high-traffic e-commerce platform.
+              </p>
+              <p className="mb-4 leading-relaxed">
+                I care deeply about maintainable code, well-thought
+                architecture, and systems that actually work — not just ones
+                that look good in theory.
+              </p>
+            </div>
+            <div className="border-2 border-white p-6">
+              <h3 className="text-xl font-bold mb-4 text-green-400">
+                SKILLS.JSON:
+              </h3>
+              <pre className="text-sm leading-relaxed">
+                {`{
+    "languages": [
+        "TypeScript", "JavaScript", "C#",
+        "Python", "SQL"
+      ],
+    "frameworks": [
+        "Express.js", "Next.js", "Expo",
+        ".Net MVC"
+      ],
+    "databases": [
+        "PostgreSQL", "Redis", "MongoDB",
+      ],
+    "infrastructure": [
+        "NGINX", "PM2", "SSL", "VDS"
+      ],
+    "tools": [
+        "Git", "Postman", "Jira",
+        "TanStackQuery","Figma",
+        "Tag Manager"
+      ]
+    }`}
+              </pre>
+            </div>
+          </div>
+        </div>
+  )
+}
+
+export default About
