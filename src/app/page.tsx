@@ -125,10 +125,10 @@ export default function Portfolio() {
             PROJECTS.DIR
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* Project 1 */}
+            {/* CoffeeNEst */}
             <div className="border-2 border-white">
               <div className="border-b-2 border-white p-4 bg-green-400 text-black">
-                <h3 className="text-xl font-bold">DISTRIBUTED_CACHE_SYSTEM</h3>
+                <h3 className="text-xl font-bold">COFFEE_NEST</h3>
               </div>
               <div className="p-6">
                 <Image
@@ -139,37 +139,39 @@ export default function Portfolio() {
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
                 <p className="mb-4">
-                  High-performance distributed caching system handling 100K+
-                  requests/second. Built for horizontal scaling with consistent
-                  hashing.
+                  B2C café review platform built end-to-end. Includes database
+                  design, API docs, mobile app & web landing.
                 </p>
                 <div className="mb-4">
                   <span className="text-green-400 font-bold">STACK:</span>
-                  <code className="ml-2">Go, Redis, Docker, Kubernetes</code>
+                  <code className="ml-2">
+                    Express.js, PostgreSQL, Prisma, PM2, NGINX, SSL, React
+                    Native (Expo), Next.js, Firebase, Sentry
+                  </code>
                 </div>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://github.com/oznuroznur/CoffeeNest_Landing_Page"
                     className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
                   >
                     <Github size={16} />
                     CODE
                   </a>
                   <a
-                    href="#"
+                    href="http://coffeenest.oznuroznur.com"
                     className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
                   >
                     <ExternalLink size={16} />
-                    DEMO
+                    SEE
                   </a>
                 </div>
               </div>
             </div>
 
-            {/* Project 2 */}
+            {/* Mixograph aı */}
             <div className="border-2 border-white">
               <div className="border-b-2 border-white p-4 bg-green-400 text-black">
-                <h3 className="text-xl font-bold">API_GATEWAY_SERVICE</h3>
+                <h3 className="text-xl font-bold">MIXOGRAPH_AI</h3>
               </div>
               <div className="p-6">
                 <img
@@ -178,39 +180,66 @@ export default function Portfolio() {
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
                 <p className="mb-4">
-                  Custom API gateway with rate limiting, authentication, and
-                  request routing. Reduced latency by 40% compared to existing
-                  solutions.
+                  Smart cocktail assistant with AI features. AI-based
+                  suggestions, web scraping, and automated recipe syncing.
                 </p>
                 <div className="mb-4">
                   <span className="text-green-400 font-bold">STACK:</span>
                   <code className="ml-2">
-                    Python, FastAPI, PostgreSQL, Redis
+                    Express.js, PostgreSQL, Prisma, React Native (Expo), n8n,
+                    Firebase
                   </code>
                 </div>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://github.com/oznuroznur/Mixograph_Landing_Page"
                     className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
                   >
                     <Github size={16} />
                     CODE
                   </a>
                   <a
-                    href="#"
+                    href="http://mixograph.oznuroznur.com"
                     className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
                   >
                     <ExternalLink size={16} />
-                    DOCS
+                    SEE
                   </a>
                 </div>
               </div>
             </div>
 
-            {/* Project 3 */}
+            {/* Vatan Bilgisayar */}
             <div className="border-2 border-white">
               <div className="border-b-2 border-white p-4 bg-green-400 text-black">
-                <h3 className="text-xl font-bold">REAL_TIME_ANALYTICS</h3>
+                <h3 className="text-xl font-bold">VATAN_BILGISAYAR_WEBSITE</h3>
+              </div>
+              <div className="p-6">
+                <Image
+                  width={800}
+                  height={400}
+                  src="/projects/vatan.png" // TODO: gerçek görsel
+                  alt="Vatan Bilgisayar e-commerce platformu"
+                  className="w-full h-48 object-cover border-2 border-white mb-4"
+                />
+                <p className="mb-4">
+                  High-traffic e-commerce site. Contributed to backend logic
+                  improvements and full frontend migration.
+                </p>
+                <div className="mb-4">
+                  <span className="text-green-400 font-bold">STACK:</span>
+                  <code className="ml-2">
+                    .NET MVC, PostgreSQL, PM2, NGINX, SSL, Bootstrap 5, jQuery,
+                    SCSS
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            {/* Foofion */}
+            <div className="border-2 border-white">
+              <div className="border-b-2 border-white p-4 bg-green-400 text-black">
+                <h3 className="text-xl font-bold">FOODION</h3>
               </div>
               <div className="p-6">
                 <img
@@ -219,31 +248,23 @@ export default function Portfolio() {
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
                 <p className="mb-4">
-                  Real-time data processing pipeline for analytics. Processes
-                  millions of events per day with sub-second latency.
+                  AI-powered nutrition & recipe app. OCR scans fridge
+                  ingredients, AI suggests recipes & diet plans.
                 </p>
                 <div className="mb-4">
                   <span className="text-green-400 font-bold">STACK:</span>
                   <code className="ml-2">
-                    Rust, Apache Kafka, ClickHouse, Docker
+                    Node.js, PostgreSQL, pytesseract, PM2, NGINX, SSL, React
+                    Native (Expo), n8n, Clerk, Sentry
                   </code>
-                </div>
-                <div className="flex gap-4">
-                  <a
-                    href="#"
-                    className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
-                  >
-                    <Github size={16} />
-                    CODE
-                  </a>
                 </div>
               </div>
             </div>
 
-            {/* Project 4 */}
+            {/* RC  CS*/}
             <div className="border-2 border-white">
               <div className="border-b-2 border-white p-4 bg-green-400 text-black">
-                <h3 className="text-xl font-bold">CLI_DEPLOYMENT_TOOL</h3>
+                <h3 className="text-xl font-bold">ROYALCERT_SEARCH_PLATFORM</h3>
               </div>
               <div className="p-6">
                 <img
@@ -252,31 +273,220 @@ export default function Portfolio() {
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
                 <p className="mb-4">
-                  Command-line deployment tool for containerized applications.
-                  Zero-downtime deployments with automatic rollback
-                  capabilities.
+                  Custom certification search system with admin panel,
+                  integrated into Royalcert’s official website.
                 </p>
                 <div className="mb-4">
                   <span className="text-green-400 font-bold">STACK:</span>
                   <code className="ml-2">
-                    Go, Docker, Kubernetes API, Cobra CLI
+                    FastAPI, PostgreSQL, PM2, NGINX, SSL, Next.js
                   </code>
                 </div>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://github.com/olbition/CS-by-oznur"
                     className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
                   >
                     <Github size={16} />
                     CODE
                   </a>
                   <a
-                    href="#"
+                    href="/https://certification.royalcert.com/"
                     className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
                   >
                     <ExternalLink size={16} />
-                    INSTALL
+                    SEE
                   </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Nyon */}
+            <div className="border-2 border-white">
+              <div className="border-b-2 border-white p-4 bg-green-400 text-black">
+                <h3 className="text-xl font-bold">NYON</h3>
+              </div>
+              <div className="p-6">
+                <p className="mb-4">
+                  Peer-to-peer car rental app with socket-based messaging and
+                  offer management.
+                </p>
+                <div className="mb-4">
+                  <span className="text-green-400 font-bold">STACK:</span>
+                  <code className="ml-2">
+                    Node.js, WebSocket, PostgreSQL, React Native (Expo), Sentry
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            {/* CALL_CENTER_CRM */}
+            <div className="border-2 border-white">
+              <div className="border-b-2 border-white p-4 bg-green-400 text-black">
+                <h3 className="text-xl font-bold">CALL_CENTER_CRM</h3>
+              </div>
+              <div className="p-6">
+                <Image
+                  width={800}
+                  height={400}
+                  src="/projects/callcenter_crm.png"
+                  alt="Call Center CRM panel with hotel intake and roles"
+                  className="w-full h-48 object-cover border-2 border-white mb-4"
+                />
+                <p className="mb-4">
+                  Multi-role operations panel for call center, hotels, admins,
+                  and external consultants. Pulls TGA hotel listings via n8n
+                  into a unified table. Users add role-scoped notes per hotel,
+                  manage pre-audit documentation, and run a proposal → approval
+                  workflow before hand-off to the Audit system.
+                </p>
+
+                <ul className="list-disc ml-5 mb-4 text-sm leading-relaxed">
+                  <li>
+                    <b>RBAC:</b> call-center agent, hotel, admin, external
+                    consultant — scoped permissions and views.
+                  </li>
+                  <li>
+                    <b>Data sync:</b> n8n integration fetches TGA hotel list on
+                    schedule; normalized into PostgreSQL.
+                  </li>
+                  <li>
+                    <b>Hotel dossier:</b> required documents collected; hotels
+                    can log in and upload; consultants can update on behalf.
+                  </li>
+                  <li>
+                    <b>Proposals:</b> email offer sent from panel; if accepted,
+                    signed contract is recorded and the hotel is queued for
+                    audit.
+                  </li>
+                  <li>
+                    <b>Activity & notes:</b> per-hotel timelines, filters by
+                    role/status, audit readiness flags.
+                  </li>
+                  <li>
+                    <b>Observability:</b> Sentry for error tracking; Clarity for
+                    UX insights.
+                  </li>
+                </ul>
+
+                <div className="mb-4">
+                  <span className="text-green-400 font-bold">STACK:</span>
+                  <code className="ml-2">
+                    Node.js, PostgreSQL, Prisma, Next.js, NextAuth, n8n, Sentry,
+                    Clarity
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            {/* GSTC_AUDIT_PLATFORM */}
+            <div className="border-2 border-white">
+              <div className="border-b-2 border-white p-4 bg-green-400 text-black">
+                <h3 className="text-xl font-bold">GSTC_AUDIT_PLATFORM</h3>
+              </div>
+              <div className="p-6">
+                <Image
+                  width={800}
+                  height={400}
+                  src="/projects/gstc_audit.png" 
+                  alt="GSTC audit scheduling, forms, e-signature, and reporting"
+                  className="w-full h-48 object-cover border-2 border-white mb-4"
+                />
+                <p className="mb-4">
+                  End-to-end audit management: assignment, scheduling, on-site
+                  execution, evidence capture, e-signatures, PDF export, and
+                  non-conformity reporting. Hotels accepted from the CRM queue
+                  wait for auditor assignment; auditors confirm audits on their
+                  calendar and proceed with a versioned form.
+                </p>
+
+                <ul className="list-disc ml-5 mb-4 text-sm leading-relaxed">
+                  <li>
+                    <b>Intake → assignment:</b> items arriving from CRM; auditor
+                    assignment with accept/decline workflow.
+                  </li>
+                  <li>
+                    <b>Calendar:</b> auditor calendar view; conflicts and
+                    overlaps flagged before confirmation.
+                  </li>
+                  <li>
+                    <b>Audit form:</b> structured per-criterion form; evidence
+                    uploads (photos/docs) per item.
+                  </li>
+                  <li>
+                    <b>E-signature:</b> digital signing during/after inspection;
+                    immutable record stored with audit.
+                  </li>
+                  <li>
+                    <b>Reporting:</b> export finalized form to PDF;
+                    auto-generate Non-Conformity Report when applicable.
+                  </li>
+                  <li>
+                    <b>Expenses:</b> auditor expense form (travel,
+                    accommodation, misc.); admin review & approval.
+                  </li>
+                  <li>
+                    <b>Admin overview:</b> pipeline & progress tracking across
+                    all audits; filters by status/auditor/hotel.
+                  </li>
+                  <li>
+                    <b>Security & telemetry:</b> Clerk for auth; Sentry +
+                    Clarity for monitoring and UX analysis.
+                  </li>
+                </ul>
+
+                <div className="mb-4">
+                  <span className="text-green-400 font-bold">STACK:</span>
+                  <code className="ml-2">
+                    Node.js, PostgreSQL, Prisma, Next.js, Clerk, Sentry, Clarity
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            {/* IORder Track */}
+            <div className="border-2 border-white">
+              <div className="border-b-2 border-white p-4 bg-green-400 text-black">
+                <h3 className="text-xl font-bold">ORDER_TRACKING_APP</h3>
+              </div>
+              <div className="p-6">
+                <Image
+                  width={800}
+                  height={400}
+                  src="/projects/order_tracking.png"
+                  alt="Order tracking and restaurant management system"
+                  className="w-full h-48 object-cover border-2 border-white mb-4"
+                />
+                <p className="mb-4">
+                  Restaurant management app with real-time table/order interface
+                  and kitchen stock control.
+                </p>
+                <div className="mb-4">
+                  <span className="text-green-400 font-bold">STACK:</span>
+                  <code className="ml-2">
+                    Express.js, PostgreSQL, PM2, NGINX, SSL, Next.js, React
+                    Native (Expo)
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            {/* Hukukcun */}
+            <div className="border-2 border-white">
+              <div className="border-b-2 border-white p-4 bg-green-400 text-black">
+                <h3 className="text-xl font-bold">HUKUKCUN</h3>
+              </div>
+              <div className="p-6">
+                <p className="mb-4">
+                  The first relief of Web & mobile platform connecting lawyers
+                  and clients. Booking system, role-based UI, video calls.
+                </p>
+                <div className="mb-4">
+                  <span className="text-green-400 font-bold">STACK:</span>
+                  <code className="ml-2">
+                    Node.js, PostgreSQL, Prisma, WebRTC, Next.js, React Native
+                    (Expo), Sentry
+                  </code>
                 </div>
               </div>
             </div>
@@ -303,29 +513,25 @@ export default function Portfolio() {
                 </p>
                 <ul className="mt-2 space-y-1">
                   <li>
-                    • Gained hands-on experience in .NET MVC architecture ,
-                    contributing to backend improvements by debugging
-                    controller-service-model flows and fixing logic-level
-                    issues.
+                    • Gained hands-on experience in .NET MVC architecture by
+                    debugging controller-service-model flows and fixing
+                    logic-level issues.
                   </li>
                   <li>
-                    • Delivered key features including the PC Build Wizard ,
-                    product comparison drawer , AJAX filtering , and store
-                    locator , while supporting core flows like login and
-                    messaging.
+                    • Delivered features like PC Build Wizard, product
+                    comparison drawer, AJAX filtering, and store locator.
                   </li>
                   <li>
-                    • Migrated the entire frontend framework from Bootstrap 3 to
-                    5 , and maintained legacy modules using jQuery , SCSS , and
-                    JavaScript .
+                    • Migrated frontend framework from Bootstrap 3 to 5,
+                    maintained legacy modules (jQuery, SCSS, JS).
                   </li>
                   <li>
-                    • Built reusable utility functions and integrated Google Tag
-                    Manager for user behavior tracking and analytics.
+                    • Built reusable utilities and integrated Google Tag Manager
+                    for analytics.
                   </li>
                 </ul>
               </div>
-
+              {/* Ideon */}
               <div className="mb-6">
                 <h4 className="font-bold">SOFTWARE DEVELOPER </h4>
                 <p className="text-green-400">
@@ -333,24 +539,22 @@ export default function Portfolio() {
                 </p>
                 <ul className="mt-2 space-y-1">
                   <li>
-                    • Implemented real-time communication features using
-                    WebSocket and collaborated on API integration, debugging
-                    backend-related logic and contributing to data structure
-                    decisions.
+                    • Implemented real-time features using WebSocket,
+                    collaborated on API integration and backend debugging.
                   </li>
                   <li>
-                    • Developed mobile applications using React Native and Expo
-                    and built web interfaces with Next.js, TanStack Query, and
-                    Tailwind CSS, delivering responsive and user-focused UIs.
+                    • Designed & developed AI-integrated mobile apps (e.g.,
+                    Foodion) using React Native (Expo) and web UIs with Next.js,
+                    TanStack Query, Tailwind CSS.
                   </li>
                   <li>
-                    • Worked within agile teams to deliver production-ready
-                    mobile and web solutions with an emphasis on scalability and
-                    maintainability.
+                    • Delivered scalable, production-ready mobile & web
+                    solutions in agile teams.
                   </li>
                 </ul>
               </div>
 
+              {/* Mebant */}
               <div className="mb-6">
                 <h4 className="font-bold">INTERN ENGINEER</h4>
                 <p className="text-green-400">
@@ -363,6 +567,7 @@ export default function Portfolio() {
                   </li>
                 </ul>
               </div>
+              {/* Eskisehir Industrial Zone */}
               <div className="mb-6">
                 <h4 className="font-bold">INTERN ENGINEER</h4>
                 <p className="text-green-400">
@@ -381,27 +586,45 @@ export default function Portfolio() {
               <h3 className="text-xl font-bold mb-4 text-green-400">
                 EDUCATION:
               </h3>
-              <div className="mb-4">
-                <h4 className="font-bold">B.S. SOFTWARE ENGINEERING </h4>
-                <p className="text-green-400">Uskudar University | 2023</p>
 
+              <div className="mb-4">
+                <h4 className="font-bold">B.S. SOFTWARE ENGINEERING</h4>
+                <p className="text-green-400">Uskudar University | 2023</p>
                 <p>
-                  * 75% Scholarship.
-                  <br />* GPA: 3,25 <br /> * 100% English <br /> * (PEIC) - C1
+                  * 75% Scholarship
+                  <br />* GPA: 3.25
+                  <br />* 100% English
+                  <br />* (PEIC) - C1
                 </p>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-green-400 mt-6">
-                GPA: 3.25
-              </h3>
-              <div className="mb-4">
+
+              <div className="mb-4 mt-6">
                 <h4 className="font-bold">
-                  B.S. Management Information Systems
+                  B.S. MANAGEMENT INFORMATION SYSTEMS
                 </h4>
-                <p className="text-green-400">Anadolu University | 2023</p>
+                <p className="text-green-400">Anadolu University | 2026</p>
+                <p>* GPA: 3.67</p>
               </div>
+
               <h3 className="text-xl font-bold mb-4 text-green-400 mt-6">
-                GPA: 3.67
+                CERTIFICATIONS:
               </h3>
+              <ul className="list-disc ml-5 text-sm">
+                <li>
+                  Generative AI: Prompt Engineering Basics – IBM (In Progress)
+                </li>
+              </ul>
+
+              <h3 className="text-xl font-bold mb-4 text-green-400 mt-6">
+                LANGUAGES:
+              </h3>
+              <p>
+                Turkish – Native
+                <br />
+                English – Full Professional
+                <br />
+                German – Elementary
+              </p>
 
               <div className="mt-8">
                 <a
