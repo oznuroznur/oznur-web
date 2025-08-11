@@ -102,7 +102,7 @@ function Projects() {
                 <Image
                   width={800}
                   height={400}
-                  src="/projects/vatan.png" // TODO: gerçek görsel
+                  src="/assets/vatan-bilgisayar.png"
                   alt="Vatan Bilgisayar e-commerce platformu"
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
@@ -151,9 +151,11 @@ function Projects() {
                 <h3 className="text-xl font-bold">ROYALCERT_SEARCH_PLATFORM</h3>
               </div>
               <div className="p-6">
-                <img
-                  src="/placeholder.svg?height=200&width=400"
-                  alt="CLI Tool Terminal"
+                    <Image
+                  width={800}
+                  height={400}
+                  src="/assets/rc.png"
+                  alt="Call Center CRM panel with hotel intake and roles"
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
                 <p className="mb-4">
@@ -213,7 +215,7 @@ function Projects() {
                 <Image
                   width={800}
                   height={400}
-                  src="/projects/callcenter_crm.png"
+                  src="/assets/call-center.png"
                   alt="Call Center CRM panel with hotel intake and roles"
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
@@ -272,7 +274,7 @@ function Projects() {
                 <Image
                   width={800}
                   height={400}
-                  src="/projects/gstc_audit.png" 
+                  src="/assets/crm.png" 
                   alt="GSTC audit scheduling, forms, e-signature, and reporting"
                   className="w-full h-48 object-cover border-2 border-white mb-4"
                 />
