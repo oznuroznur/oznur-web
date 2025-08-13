@@ -4,11 +4,11 @@ import React from 'react'
 function Resume() {
   return (
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6 border-b-2 border-white pb-2">
+          <h2 className="text-3xl font-bold mb-6 border-b-2 border-white pb-2 ">
             RESUME.PDF
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2 border-2 border-white p-6">
+            <div className="lg:col-span-2 border-2 border-white p-6 bg-gray-900">
               <h3 className="text-xl font-bold mb-4 text-green-400">
                 EXPERIENCE:
               </h3>
@@ -89,7 +89,7 @@ function Resume() {
               </div>
             </div>
 
-            <div className="border-2 border-white p-6">
+            <div className="border-2 border-white p-6 bg-gray-900">
               <h3 className="text-xl font-bold mb-4 text-green-400">
                 EDUCATION:
               </h3>
@@ -136,7 +136,7 @@ function Resume() {
               <div className="mt-8">
                 <a
                   href="/oznuroznur.pdf"
-                  className="border-2 border-green-400 bg-green-400 text-black px-4 py-2 hover:bg-black hover:text-green-400 flex items-center gap-2 justify-center"
+                  className="border-2 border-green-400 bg-green-400 text-black px-4 py-2 hover:text-white hover:bg-black hover:bg-[url('/assets/banner-bg.png')] hover:bg-cover hover:bg-center flex items-center gap-2 justify-center"
                 >
                   <Download size={16} />
                   DOWNLOAD_RESUME.PDF

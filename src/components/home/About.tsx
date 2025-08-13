@@ -7,7 +7,7 @@ function About() {
             ABOUT_ME.TXT
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="border-2 border-white p-6">
+            <div className="border-2 border-white p-6 bg-gray-900">
               <h3 className="text-xl font-bold mb-4 text-green-400">
                 DESCRIPTION:
               </h3>
@@ -44,7 +44,7 @@ function About() {
                 that look good in theory.
               </p>
             </div>
-            <div className="border-2 border-white p-6">
+            <div className="border-2 border-white p-6 bg-gray-900">
               <h3 className="text-xl font-bold mb-4 text-green-400">
                 SKILLS.JSON:
               </h3>

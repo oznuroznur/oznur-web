@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { ExternalLink, Github } from "lucide-react";
 
 function Projects() {
@@ -10,40 +9,44 @@ function Projects() {
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* CoffeeNEst */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">COFFEE_NEST</h3>
           </div>
-          <div className="p-6">
-            <Image
+          <div className="p-6 ">
+            {/* <Image
               width={100}
               height={100}
               src="/placeholder.svg?height=200&width=400"
               alt="Distributed Cache System Architecture"
               className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+            /> */}
             <p className="mb-4">
               B2C café review platform built end-to-end. Includes database
               design, API docs, mobile app & web landing.
             </p>
             <div className="mb-4">
               <span className="text-green-400 font-bold">STACK:</span>
-              <code className="ml-2">
+              <code className="ml-2 ">
                 Express.js, PostgreSQL, Prisma, PM2, NGINX, SSL, React Native
                 (Expo), Next.js, Firebase, Sentry
               </code>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 md:mt-10">
               <a
                 href="https://github.com/oznuroznur/CoffeeNest_Landing_Page"
-                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
+                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2 "
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Github size={16} />
                 CODE
               </a>
               <a
                 href="http://coffeenest.oznuroznur.com"
-                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
+                className="border-2 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
+               target="_blank"
+                rel="noopener noreferrer"
               >
                 <ExternalLink size={16} />
                 SEE
@@ -53,16 +56,18 @@ function Projects() {
         </div>
 
         {/* Mixograph aı */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">MIXOGRAPH_AI</h3>
           </div>
           <div className="p-6">
-            <img
+            {/* <Image
               src="/placeholder.svg?height=200&width=400"
               alt="API Gateway Dashboard"
               className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+              width={400}
+              height={200}
+            /> */}
             <p className="mb-4">
               Smart cocktail assistant with AI features. AI-based suggestions,
               web scraping, and automated recipe syncing.
@@ -78,13 +83,17 @@ function Projects() {
               <a
                 href="https://github.com/oznuroznur/Mixograph_Landing_Page"
                 className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Github size={16} />
                 CODE
               </a>
               <a
                 href="http://mixograph.oznuroznur.com"
-                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
+                className="border-2 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <ExternalLink size={16} />
                 SEE
@@ -94,18 +103,18 @@ function Projects() {
         </div>
 
         {/* Vatan Bilgisayar */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">VATAN_BILGISAYAR_WEBSITE</h3>
           </div>
           <div className="p-6">
-            <Image
+            {/* <Image
               width={800}
               height={400}
-              src="/assets/vatan-bilgisayar.png"
+              src="/assets/vatan-2.png"
               alt="Vatan Bilgisayar e-commerce platformu"
-              className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+              className="w-full h-48 object-contain border-2 border-white mb-4"
+            /> */}
             <p className="mb-4">
               High-traffic e-commerce site. Contributed to backend logic
               improvements and full frontend migration.
@@ -116,20 +125,42 @@ function Projects() {
                 .NET MVC, PostgreSQL, PM2, NGINX, SSL, Bootstrap 5, jQuery, SCSS
               </code>
             </div>
+            <div className="flex gap-4">
+              <a
+                href="#projects"
+                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2 cursor-not-allowed"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={16} />
+                Private_Repository
+              </a>
+              <a
+                href="https://www.vatanbilgisayar.com/"
+                className="border-2 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ExternalLink size={16} />
+                SEE
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Foodion */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">FOODION</h3>
           </div>
           <div className="p-6">
-            <img
-              src="/placeholder.svg?height=200&width=400"
+            {/* <Image
+              src="/assets/foodionalt.png"
               alt="Analytics Dashboard"
-              className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+              className="w-full h-48 object-contain border-2 border-white mb-4"
+              width={400}
+              height={200}
+            /> */}
             <p className="mb-4">
               AI-powered nutrition & recipe app. OCR scans fridge ingredients,
               AI suggests recipes & diet plans.
@@ -141,22 +172,33 @@ function Projects() {
                 (Expo), n8n, Clerk, Sentry
               </code>
             </div>
+            <div className="flex gap-4">
+              <a
+                href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={16} />
+                Private_Repository_Contact_for_Access
+              </a>
+            </div>
           </div>
         </div>
 
         {/* RC  CS*/}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">ROYALCERT_SEARCH_PLATFORM</h3>
           </div>
           <div className="p-6">
-            <Image
+            {/* <Image
               width={800}
               height={400}
               src="/assets/rc.png"
               alt="Call Center CRM panel with hotel intake and roles"
               className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+            /> */}
             <p className="mb-4">
               Custom certification search system with admin panel, integrated
               into Royalcert’s official website.
@@ -167,17 +209,21 @@ function Projects() {
                 FastAPI, PostgreSQL, PM2, NGINX, SSL, Next.js
               </code>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 md:mt-10">
               <a
-                href="https://github.com/olbition/CS-by-oznur"
-                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
+                href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Github size={16} />
-                CODE
+                Private_Repository_Contact_for_Access
               </a>
               <a
-                href="/https://certification.royalcert.com/"
+                href="https://certification.royalcert.com/"
                 className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <ExternalLink size={16} />
                 SEE
@@ -187,11 +233,18 @@ function Projects() {
         </div>
 
         {/* Nyon */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">NYON</h3>
           </div>
           <div className="p-6">
+            {/* <Image
+              src="/assets/nyonalt.png"
+              alt="Analytics Dashboard"
+              className="w-full h-48 object-contain border-2 border-white mb-4"
+              width={400}
+              height={200}
+            /> */}
             <p className="mb-4">
               Peer-to-peer car rental app with socket-based messaging and offer
               management.
@@ -202,22 +255,33 @@ function Projects() {
                 Node.js, WebSocket, PostgreSQL, React Native (Expo), Sentry
               </code>
             </div>
+            <div className="flex gap-4">
+              <a
+                href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={16} />
+                Private_Repository_Contact_for_Access
+              </a>
+            </div>
           </div>
         </div>
 
         {/* CALL_CENTER_CRM */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">CALL_CENTER_CRM</h3>
           </div>
           <div className="p-6">
-            <Image
+            {/* <Image
               width={800}
               height={400}
               src="/assets/call-center.png"
               alt="Call Center CRM panel with hotel intake and roles"
               className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+            /> */}
             <p className="mb-4">
               Multi-role operations panel for call center, hotels, admins, and
               external consultants. Pulls TGA hotel listings via n8n into a
@@ -260,22 +324,33 @@ function Projects() {
                 Clarity
               </code>
             </div>
+            <div className="flex gap-4 md:mt-21">
+              <a
+                href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={16} />
+                Private_Repository_Contact_for_Access
+              </a>
+            </div>
           </div>
         </div>
 
         {/* GSTC_AUDIT_PLATFORM */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">GSTC_AUDIT_PLATFORM</h3>
           </div>
           <div className="p-6">
-            <Image
+            {/* <Image
               width={800}
               height={400}
               src="/assets/crm.png"
               alt="GSTC audit scheduling, forms, e-signature, and reporting"
               className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+            /> */}
             <p className="mb-4">
               End-to-end audit management: assignment, scheduling, on-site
               execution, evidence capture, e-signatures, PDF export, and
@@ -325,22 +400,33 @@ function Projects() {
                 Node.js, PostgreSQL, Prisma, Next.js, Clerk, Sentry, Clarity
               </code>
             </div>
+            <div className="flex gap-4">
+              <a
+                href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={16} />
+                Private_Repository_Contact_for_Access
+              </a>
+            </div>
           </div>
         </div>
 
         {/* IORder Track */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">ORDER_TRACKING_APP</h3>
           </div>
           <div className="p-6">
-            <Image
+            {/* <Image
               width={800}
               height={400}
               src="/projects/order_tracking.png"
               alt="Order tracking and restaurant management system"
               className="w-full h-48 object-cover border-2 border-white mb-4"
-            />
+            /> */}
             <p className="mb-4">
               Restaurant management app with real-time table/order interface and
               kitchen stock control.
@@ -352,11 +438,22 @@ function Projects() {
                 (Expo)
               </code>
             </div>
+            <div className="flex gap-4 md:mt-10">
+              <a
+                href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={16} />
+                Private_Repository_Contact_for_Access
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Hukukcun */}
-        <div className="border-2 border-white">
+        <div className="border-2 border-white bg-gray-900">
           <div className="border-b-2 border-white p-4 bg-green-400 text-black">
             <h3 className="text-xl font-bold">HUKUKCUN</h3>
           </div>
@@ -371,6 +468,17 @@ function Projects() {
                 Node.js, PostgreSQL, Prisma, WebRTC, Next.js, React Native
                 (Expo), Sentry
               </code>
+            </div>
+            <div className="flex gap-4">
+              <a
+                href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={16} />
+                Private_Repository_Contact_for_Access
+              </a>
             </div>
           </div>
         </div>
