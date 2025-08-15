@@ -35,7 +35,7 @@ function Projects() {
             <div className="flex gap-4 md:mt-10">
               <a
                 href="https://github.com/oznuroznur/CoffeeNest_Landing_Page"
-                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2 "
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -45,7 +45,7 @@ function Projects() {
               <a
                 href="http://coffeenest.oznuroznur.com"
                 className="border-2 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
-               target="_blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <ExternalLink size={16} />
@@ -82,7 +82,7 @@ function Projects() {
             <div className="flex gap-4">
               <a
                 href="https://github.com/oznuroznur/Mixograph_Landing_Page"
-                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
+                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -125,7 +125,7 @@ function Projects() {
                 .NET MVC, PostgreSQL, PM2, NGINX, SSL, Bootstrap 5, jQuery, SCSS
               </code>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-col md:flex-row">
               <a
                 href="#projects"
                 className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2 cursor-not-allowed"
@@ -137,7 +137,7 @@ function Projects() {
               </a>
               <a
                 href="https://www.vatanbilgisayar.com/"
-                className="border-2 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
+                className="border-2 w-20 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -172,15 +172,19 @@ function Projects() {
                 (Expo), n8n, Clerk, Sentry
               </code>
             </div>
-            <div className="flex gap-4">
+              <div className="flex gap-4">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
-                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                className="inline-flex items-center gap-2 border-2 border-white px-3 py-2
+             w-full sm:w-auto text-sm md:text-base
+             hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={16} />
-                Private_Repository_Contact_for_Access
+                <Github className="h-5 w-5 flex-none shrink-0" />
+                <span className="min-w-0 whitespace-normal break-words leading-snug">
+                  Private_Repository_Contact_for_Access
+                </span>
               </a>
             </div>
           </div>
@@ -212,17 +216,21 @@ function Projects() {
             <div className="flex gap-4 md:mt-10 flex-col md:flex-row">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
-                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                className="inline-flex items-center gap-2 border-2 border-white px-3 py-2
+             w-full sm:w-auto text-sm md:text-base
+             hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={16} />
-                Private_Repository_Contact_for_Access
+                <Github className="h-5 w-5 flex-none shrink-0" />
+                <span className="min-w-0 whitespace-normal break-words leading-snug">
+                  Private_Repository_Contact_for_Access
+                </span>
               </a>
               <a
                 href="https://certification.royalcert.com/"
                 className="border-2 w-20 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
-              target="_blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <ExternalLink size={16} />
@@ -255,15 +263,19 @@ function Projects() {
                 Node.js, WebSocket, PostgreSQL, React Native (Expo), Sentry
               </code>
             </div>
-            <div className="flex gap-4">
+             <div className="flex gap-4">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
-                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                className="inline-flex items-center gap-2 border-2 border-white px-3 py-2
+             w-full sm:w-auto text-sm md:text-base
+             hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={16} />
-                Private_Repository_Contact_for_Access
+                <Github className="h-5 w-5 flex-none shrink-0" />
+                <span className="min-w-0 whitespace-normal break-words leading-snug">
+                  Private_Repository_Contact_for_Access
+                </span>
               </a>
             </div>
           </div>
@@ -324,15 +336,19 @@ function Projects() {
                 Clarity
               </code>
             </div>
-            <div className="flex gap-4 md:mt-21">
+             <div className="flex gap-4 md:mt-21">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
-                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                className="inline-flex items-center gap-2 border-2 border-white px-3 py-2
+             w-full sm:w-auto text-sm md:text-base
+             hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={16} />
-                Private_Repository_Contact_for_Access
+                <Github className="h-5 w-5 flex-none shrink-0" />
+                <span className="min-w-0 whitespace-normal break-words leading-snug">
+                  Private_Repository_Contact_for_Access
+                </span>
               </a>
             </div>
           </div>
@@ -400,15 +416,19 @@ function Projects() {
                 Node.js, PostgreSQL, Prisma, Next.js, Clerk, Sentry, Clarity
               </code>
             </div>
-            <div className="flex gap-4">
+             <div className="flex gap-4">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
-                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                className="inline-flex items-center gap-2 border-2 border-white px-3 py-2
+             w-full sm:w-auto text-sm md:text-base
+             hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={16} />
-                Private_Repository_Contact_for_Access
+                <Github className="h-5 w-5 flex-none shrink-0" />
+                <span className="min-w-0 whitespace-normal break-words leading-snug">
+                  Private_Repository_Contact_for_Access
+                </span>
               </a>
             </div>
           </div>
@@ -438,15 +458,19 @@ function Projects() {
                 (Expo)
               </code>
             </div>
-            <div className="flex gap-4 md:mt-10">
+             <div className="flex gap-4 md:mt-10">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
-                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                className="inline-flex items-center gap-2 border-2 border-white px-3 py-2
+             w-full sm:w-auto text-sm md:text-base
+             hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={16} />
-                Private_Repository_Contact_for_Access
+                <Github className="h-5 w-5 flex-none shrink-0" />
+                <span className="min-w-0 whitespace-normal break-words leading-snug">
+                  Private_Repository_Contact_for_Access
+                </span>
               </a>
             </div>
           </div>
@@ -469,15 +493,19 @@ function Projects() {
                 (Expo), Sentry
               </code>
             </div>
-            <div className="flex gap-4">
+             <div className="flex gap-4">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
-                className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
+                className="inline-flex items-center gap-2 border-2 border-white px-3 py-2
+             w-full sm:w-auto text-sm md:text-base
+             hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={16} />
-                Private_Repository_Contact_for_Access
+                <Github className="h-5 w-5 flex-none shrink-0" />
+                <span className="min-w-0 whitespace-normal break-words leading-snug">
+                  Private_Repository_Contact_for_Access
+                </span>
               </a>
             </div>
           </div>
