@@ -48,27 +48,57 @@ function About() {
               <h3 className="text-xl font-bold mb-4 text-green-400">
                 SKILLS.JSON:
               </h3>
-              <pre className="text-sm leading-relaxed">
+              <pre className="text-sm leading-relaxed hidden md:flex">
                 {`{
     "languages": [
         "TypeScript", "JavaScript", "C#",
         "Python", "SQL"
       ],
     "frameworks": [
-        "Express.js", "Next.js", "Expo",
-        ".Net MVC"
+        "Express.js", "Next.js",
+        ".Net MVC","React Native"
       ],
     "databases": [
         "PostgreSQL", "Redis", "MongoDB",
+        "Prisma (ORM)"
       ],
     "infrastructure": [
-        "NGINX", "PM2", "SSL", "VDS"
+        "NGINX", "PM2", "SSL", "VDS","Ubuntu"
       ],
     "tools": [
-        "Git", "Postman", "Jira",
-        "TanStackQuery","Figma",
-        "Tag Manager"
-      ]
+        "Git", "Postman","Jira",
+        "Swagger UI","Figma"
+      ],
+      "testing": [
+        "Jest","React Testing Library",
+      ] 
+    }`}
+              </pre>
+               <pre className="text-sm leading-relaxed flex md:hidden">
+                {`{
+    "languages": [
+        "TypeScript", "JavaScript",
+         "C#","Python", "SQL"
+      ],
+    "frameworks": [
+        "Express.js", "Next.js",
+         ".Net MVC","React Native"
+      ],
+    "databases": [
+        "PostgreSQL", "Redis",
+         "MongoDB", "Prisma (ORM)"
+      ],
+    "infrastructure": [
+        "NGINX", "PM2",
+         "SSL", "VDS","Ubuntu"
+      ],
+    "tools": [
+        "Git", "Postman","Jira",
+        "Swagger UI","Figma"
+      ],
+      "testing": [
+        "Jest","React Testing Library",
+      ] 
     }`}
               </pre>
             </div>

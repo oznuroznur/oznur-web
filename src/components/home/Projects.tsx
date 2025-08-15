@@ -209,7 +209,7 @@ function Projects() {
                 FastAPI, PostgreSQL, PM2, NGINX, SSL, Next.js
               </code>
             </div>
-            <div className="flex gap-4 md:mt-10">
+            <div className="flex gap-4 md:mt-10 flex-col md:flex-row">
               <a
                 href="mailto:oznuroznurr26@example.com?subject=Access%20Request%20for%20Private%20Repository"
                 className="border-2 border-white px-3 py-1 text-xs hover:bg-white hover:text-black flex items-center gap-2 text-wrap md:text-base "
@@ -221,8 +221,8 @@ function Projects() {
               </a>
               <a
                 href="https://certification.royalcert.com/"
-                className="border-2 border-white px-3 py-1 hover:bg-white hover:text-black flex items-center gap-2"
-                target="_blank"
+                className="border-2 w-20 border-white px-3 py-1 flex items-center gap-2 hover:bg-white hover:text-black hover:bg-none transition-none text-center text-sm md:text-base bg-[url('/assets/banner-bg.png')] bg-cover bg-center"
+              target="_blank"
                 rel="noopener noreferrer"
               >
                 <ExternalLink size={16} />
