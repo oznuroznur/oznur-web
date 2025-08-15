@@ -97,7 +97,8 @@ function About() {
         "Swagger UI","Figma"
       ],
       "testing": [
-        "Jest","React Testing Library",
+        "Jest",
+        "React Testing Library",
       ] 
     }`}
               </pre>
